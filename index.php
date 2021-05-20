@@ -12,10 +12,8 @@
 </head>
 
 <body>
+  <?php include("./header.php")?>
   <div class="container">
-    <div class="alert alert alert-primary" role="alert">
-      <h4 class="text-primary text-center">Bienvenu</h4>
-    </div>
     <div class="alert alert-success text-center message" role="alert">
 
     </div>
@@ -46,6 +44,7 @@ include_once 'playerstable.php';
     </nav>
     <input type="hidden" name="currentpage" id="currentpage" value="1">
   </div>
+  <?php include("./footer.php") ?>
   <div>
 
     <!-- JS, Popper.js, and jQuery -->
